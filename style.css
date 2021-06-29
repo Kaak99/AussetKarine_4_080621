@@ -583,7 +583,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: -5px;
 }
 
 .close-lightbox {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -730,6 +730,22 @@ h4 {
     color: #333333!important;
 }
 
+.col-sm-12.text-center p, .avis-texte{
+    font-size: 22px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.avis-auteur{
+    font-size: 14px;
+}
+
+.col-sm-6 p{
+    text-align: center;
+    margin: 0 auto;
+    }
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -743,9 +759,13 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
+/* .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+} */
+
+.col-sm-6{
+    padding-top: 44px;
 }
 
 .avatar {
@@ -825,7 +845,11 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
+
+/* _______________________________________________RESPONSIVE_____________________________________________  */
+
+
+@media (max-width: 1024px) {/*<1024w*/
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -839,7 +863,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-width: 768px) {/*>768w et <992w*/
     .navbar .nav {
         max-width: 80%
     }
@@ -889,7 +913,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {/*<767w*/
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1026,17 +1050,27 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
 
-@media (max-width: 400px) {
-    .bloc {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .col-sm-6{
+        padding-top: 55px;
+    }
+    .img-responsive.portfolio-thumb{
+        margin: 0 auto;
+    }
+    .col-sm-12.text-center p, .col-xs-12.col-md-8 p{
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+@media (max-width: 400px) {/*<400w*/
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
     }
+    
 }
+
