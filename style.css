@@ -740,6 +740,11 @@ h4 {
     padding-right: 50px;
 }
 
+footer  .col-sm-12 .retour{
+    font-size: 22px; 
+    display: block;
+}
+
 .avis-auteur{
     font-size: 15px;
 }
@@ -846,7 +851,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
@@ -862,6 +867,7 @@ h4 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 
 .liens li{
     margin: 10px;
