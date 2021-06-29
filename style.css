@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-center{
+text-align: center;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -325,7 +329,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -526,7 +530,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 15px;
     opacity: 1;
 }
 
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -685,7 +689,7 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+h1 {
     font-size: 20px;
     font-family: "Open Sans";
 }
@@ -695,7 +699,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -710,7 +714,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -723,7 +727,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFF!important;
 }
 
 h4 {
@@ -732,13 +736,12 @@ h4 {
 
 .col-sm-12.text-center p, .avis-texte{
     font-size: 22px;
-    text-align: center;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .avis-auteur{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .col-sm-6 p{
@@ -753,6 +756,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: 700;
 }
 
 .portfolio-thumb {
@@ -773,7 +777,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(94, 83, 54);
     padding: 40px 40px 40px 40px;
 }
 
@@ -845,6 +849,52 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+
+.liens{
+    margin-top: 30px;
+}
+.liens p{
+    color: #FFF !important;
+
+}
+.liens ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.liens li{
+    margin: 10px;
+}
+
+#parlons h1, #parlons p {
+    color:#FFF !important;
+    opacity: 1;
+}
+
+.plusLisible{
+    font-size: 18px !important;
+}
+
+#formulaire1-Box{
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire1 button{
+    align-self: center;
+}
 
 /* _______________________________________________RESPONSIVE_____________________________________________  */
 
@@ -1064,6 +1114,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .liens ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 400px) {/*<400w*/
@@ -1071,6 +1126,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    
+
 }
 
