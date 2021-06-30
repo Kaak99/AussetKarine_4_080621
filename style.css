@@ -614,7 +614,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #29261E!important;
 }
 
 .container {
@@ -640,7 +640,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -651,7 +651,7 @@ p {
 h1 {
     font-size: 40px!important;
     font-family: "Open Sans";
-    color: rgb(153, 79, 79)!important;
+    text-transform: uppercase;
 }
 
 .cta-hero {
@@ -744,7 +744,7 @@ footer  .col-sm-12 .retour{
 }
 
 .black-background {
-    background-color: rgb(94, 83, 54);
+    background-color: #29261E;
     padding: 40px 40px 40px 40px;
 }
 
