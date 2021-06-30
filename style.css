@@ -649,8 +649,9 @@ p {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 40px!important;
     font-family: "Open Sans";
+    color: rgb(153, 79, 79)!important;
 }
 
 .cta-hero {
@@ -683,10 +684,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #FFF!important;
 }
 
 h4 {
