@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+https://kaak99.github.io/AussetKarine_4_080621/sitemap.xml
