@@ -11,8 +11,7 @@ body {
 text-align: center;
 }
 
-a,
-button {
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -677,7 +676,7 @@ h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333 !important;
 }
 
 .med-width-whitespace {
@@ -766,15 +765,15 @@ footer  .col-sm-12 .retour{
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4C11;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #CB4C11!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4C11;
     color: #FFFFFF!important;
 }
 
@@ -792,7 +791,7 @@ footer  .col-sm-12 .retour{
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4C11!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -868,7 +867,9 @@ footer  .col-sm-12 .retour{
     align-self: center;
 }
 
-
+.btn-lg{
+    font-size: 20px !important;
+}
 
 /* _______________________________________________RESPONSIVE_____________________________________________  */
 
