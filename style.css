@@ -366,46 +366,6 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -752,7 +712,13 @@ footer  .col-sm-12 .retour{
 .col-sm-6 p{
     text-align: center;
     margin: 0 auto;
-    }
+}
+
+.mailTo{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .icons {
     margin-bottom: 14px;
@@ -902,10 +868,12 @@ footer  .col-sm-12 .retour{
     align-self: center;
 }
 
+
+
 /* _______________________________________________RESPONSIVE_____________________________________________  */
 
 
-@media (max-width: 1024px) {/*<1024w*/
+@media (max-width: 1024px) {/*__________< 1024w__________*/
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -919,7 +887,7 @@ footer  .col-sm-12 .retour{
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {/*>768w et <992w*/
+@media (max-width: 992px) and (min-width: 768px) {/*____> 768w et < 992w____*/
     .navbar .nav {
         max-width: 80%
     }
@@ -969,7 +937,49 @@ footer  .col-sm-12 .retour{
     }
 }
 
-@media (max-width: 767px) {/*<767w*/
+@media (max-width: 768px) {/*__________< 768w__________*/
+
+    /*  */
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .nav-center {
+        text-align: center;
+    }
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
+    /*  */
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1111,7 +1121,10 @@ footer  .col-sm-12 .retour{
         text-align: center;
     }
     .col-sm-6{
+        width: 320px;
         padding-top: 55px;
+        margin: 0 auto;
+    
     }
     .img-responsive.portfolio-thumb{
         margin: 0 auto;
@@ -1127,7 +1140,7 @@ footer  .col-sm-12 .retour{
 
 }
 
-@media (max-width: 400px) {/*<400w*/
+@media (max-width: 400px) {/*_________< 400w_________*/
     .bloc {
         padding-left: 0;
         padding-right: 0;
