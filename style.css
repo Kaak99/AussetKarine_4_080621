@@ -440,6 +440,9 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 12px;
+    /* border: solid 1px red;
+    border-radius: 50%; */
 }
 
 .icon-lg {
